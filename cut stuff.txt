@@ -1,0 +1,95 @@
+diff -c -P -x *.o orig-src/Makefile src/Makefile
+*** orig-src/Makefile	Mon Feb 24 23:00:32 1997
+--- src/Makefile	Mon Feb 24 16:28:51 1997
+***************
+*** 22,28 ****
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+  	house.o interpreter.o limits.o magic.o mail.o mobact.o modify.o \
+  	objsave.o olc.o shop.o spec_assign.o spec_procs.o spell_parser.o \
+! 	spells.o utils.o weather.o 
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+--- 22,28 ----
+  	castle.o class.o config.o constants.o db.o fight.o graph.o handler.o \
+  	house.o interpreter.o limits.o magic.o mail.o mobact.o modify.o \
+  	objsave.o olc.o shop.o spec_assign.o spec_procs.o spell_parser.o \
+! 	spells.o utils.o weather.o clan.o
+  
+  default: .accepted
+  	$(MAKE) ../bin/circle
+***************
+*** 139,152 ****
+  class.o: class.c conf.h sysdep.h structs.h db.h utils.h spells.h interpreter.h
+  	$(CC) -c $(CFLAGS) class.c
+  comm.o: comm.c conf.h sysdep.h structs.h utils.h comm.h interpreter.h handler.h \
+!   db.h house.h
+  	$(CC) -c $(CFLAGS) comm.c
+  config.o: config.c conf.h sysdep.h structs.h
+  	$(CC) -c $(CFLAGS) config.c
+  constants.o: constants.c conf.h sysdep.h structs.h
+  	$(CC) -c $(CFLAGS) constants.c
+  db.o: db.c conf.h sysdep.h structs.h utils.h db.h comm.h handler.h spells.h mail.h \
+!   interpreter.h house.h
+  	$(CC) -c $(CFLAGS) db.c
+  fight.o: fight.c conf.h sysdep.h structs.h utils.h comm.h handler.h interpreter.h \
+    db.h spells.h screen.h
+--- 139,152 ----
+  class.o: class.c conf.h sysdep.h structs.h db.h utils.h spells.h interpreter.h
+  	$(CC) -c $(CFLAGS) class.c
+  comm.o: comm.c conf.h sysdep.h structs.h utils.h comm.h interpreter.h handler.h \
+!   db.h house.h clan.h
+  	$(CC) -c $(CFLAGS) comm.c
+  config.o: config.c conf.h sysdep.h structs.h
+  	$(CC) -c $(CFLAGS) config.c
+  constants.o: constants.c conf.h sysdep.h structs.h
+  	$(CC) -c $(CFLAGS) constants.c
+  db.o: db.c conf.h sysdep.h structs.h utils.h db.h comm.h handler.h spells.h mail.h \
+!   interpreter.h house.h clan.h
+  	$(CC) -c $(CFLAGS) db.c
+  fight.o: fight.c conf.h sysdep.h structs.h utils.h comm.h handler.h interpreter.h \
+    db.h spells.h screen.h
+***************
+*** 161,167 ****
+    utils.h house.h
+  	$(CC) -c $(CFLAGS) house.c
+  interpreter.o: interpreter.c conf.h sysdep.h structs.h comm.h interpreter.h db.h \
+!   utils.h spells.h handler.h mail.h screen.h
+  	$(CC) -c $(CFLAGS) interpreter.c
+  limits.o: limits.c conf.h sysdep.h structs.h utils.h spells.h comm.h db.h \
+    handler.h
+--- 161,167 ----
+    utils.h house.h
+  	$(CC) -c $(CFLAGS) house.c
+  interpreter.o: interpreter.c conf.h sysdep.h structs.h comm.h interpreter.h db.h \
+!   utils.h spells.h handler.h mail.h screen.h clan.h
+  	$(CC) -c $(CFLAGS) interpreter.c
+  limits.o: limits.c conf.h sysdep.h structs.h utils.h spells.h comm.h db.h \
+    handler.h
+***************
+*** 175,181 ****
+    handler.h spells.h
+  	$(CC) -c $(CFLAGS) mobact.c
+  modify.o: modify.c conf.h sysdep.h structs.h utils.h interpreter.h handler.h db.h \
+!   comm.h spells.h mail.h boards.h
+  	$(CC) -c $(CFLAGS) modify.c
+  objsave.o: objsave.c conf.h sysdep.h structs.h comm.h handler.h db.h \
+    interpreter.h utils.h spells.h
+--- 175,181 ----
+    handler.h spells.h
+  	$(CC) -c $(CFLAGS) mobact.c
+  modify.o: modify.c conf.h sysdep.h structs.h utils.h interpreter.h handler.h db.h \
+!   comm.h spells.h mail.h boards.h clan.h
+  	$(CC) -c $(CFLAGS) modify.c
+  objsave.o: objsave.c conf.h sysdep.h structs.h comm.h handler.h db.h \
+    interpreter.h utils.h spells.h
+***************
+*** 206,208 ****
+--- 206,212 ----
+  weather.o: weather.c conf.h sysdep.h structs.h utils.h comm.h handler.h \
+    interpreter.h db.h
+  	$(CC) -c $(CFLAGS) weather.c
++ clan.o: clan.c conf.h sysdep.h structs.h db.h utils.h spells.h \
++  interpreter.h screen.h clan.h
++ 	$(CC) -c $(CFLAGS) clan.c
++ 

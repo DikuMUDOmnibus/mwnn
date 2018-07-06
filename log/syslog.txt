@@ -1,0 +1,62 @@
+Jan 21 12:40:37 :: CircleMUD, version 3.00 beta patchlevel 16
+Jan 21 12:40:37 :: Using lib as data directory.
+Jan 21 12:40:37 :: Running game on port 6666.
+Jan 21 12:40:37 :: Finding player limit.
+Jan 21 12:40:37 :: Opening mother connection.
+Jan 21 12:40:37 :: Max players set to 300
+Jan 21 12:40:37 :: Binding to all IP interfaces on this host.
+Jan 21 12:40:37 :: Boot db -- BEGIN.
+Jan 21 12:40:37 :: Resetting the game time:
+Jan 21 12:40:37 ::    Current Gametime: 35H 20D 0M 138Y.
+Jan 21 12:40:37 :: Reading news, credits, help, bground, info & motds.
+Jan 21 12:40:37 :: Loading spell definitions.
+Jan 21 12:40:37 :: Loading zone table.
+Jan 21 12:40:37 ::    38 zones, 1064 bytes.
+Jan 21 12:40:37 :: Loading rooms.
+Jan 21 12:40:38 ::    1979 rooms, 126656 bytes.
+Jan 21 12:40:38 :: Renumbering rooms.
+Jan 21 12:40:38 :: Checking start rooms.
+Jan 21 12:40:38 :: Loading mobs and generating index.
+Jan 21 12:40:39 ::    603 mobs, 7236 bytes in index, 241200 bytes in prototypes.
+Jan 21 12:40:39 :: Loading objs and generating index.
+Jan 21 12:40:39 ::    726 objs, 8712 bytes in index, 84216 bytes in prototypes.
+Jan 21 12:40:39 :: Renumbering zone table.
+Jan 21 12:40:39 :: Loading shops.
+Jan 21 12:40:39 :: Loading help entries.
+Jan 21 12:40:40 ::    556 entries, 6672 bytes.
+Jan 21 12:40:40 :: Generating player index.
+Jan 21 12:40:40 ::    2 players in database.
+Jan 21 12:40:40 :: Loading fight messages.
+Jan 21 12:40:40 :: Loading social messages.
+Jan 21 12:40:40 :: Assigning function pointers:
+Jan 21 12:40:40 ::    Mobiles.
+Jan 21 12:40:40 ::    Shopkeepers.
+Jan 21 12:40:40 ::    Objects.
+Jan 21 12:40:40 ::    Rooms.
+Jan 21 12:40:40 :: Assigning spell and skill levels.
+Jan 21 12:40:40 :: Sorting command list and spells.
+Jan 21 12:40:40 :: Booting mail system.
+Jan 21 12:40:40 ::    200 bytes read.
+Jan 21 12:40:40 ::    Mail file read -- 0 messages.
+Jan 21 12:40:40 :: Reading banned site and invalid-name list.
+Jan 21 12:40:40 :: Loading bank.
+Jan 21 12:40:40 :: Deleting timed-out crash and rent files:
+Jan 21 12:40:40 ::    Done.
+Jan 21 12:40:40 :: Booting houses.
+Jan 21 12:40:40 :: Resetting Limbo - Internal (rooms 0-99).
+Jan 21 12:40:40 :: Resetting River Island Of Minos (rooms 100-999).
+Jan 21 12:40:40 :: Resetting God Simplex (rooms 1000-1299).
+Jan 21 12:40:40 :: Resetting The Straight Path (rooms 1300-1599).
+Jan 21 12:40:40 :: Resetting The High Tower Of Magic (rooms 1600-2699).
+Jan 21 12:40:40 :: Resetting The High Tower Of Magic II (rooms 2700-2699).
+Jan 21 12:40:40 :: Resetting Northern Midgaard Main City (rooms 2700-3099).
+Jan 21 12:40:40 :: Resetting Southern part of Midgaard (rooms 3100-3199).
+Jan 21 12:40:40 :: Resetting The Three Of Swords (rooms 3200-3399).
+Jan 21 12:40:40 :: Resetting Miden'Nir (rooms 3400-3599).
+Jan 21 12:40:40 :: Resetting The Chessboard of Midgaard (rooms 3600-3699).
+Jan 21 12:40:40 :: Resetting Moria, Levels 1-2 (rooms 3700-4199).
+Jan 21 12:40:40 :: Resetting Moria, Level 3 (rooms 4200-4199).
+Jan 21 12:40:40 :: Resetting The Great Eastern Desert (rooms 4200-5099).
+Jan 21 12:40:40 :: Resetting Drow City (rooms 5100-5199).
+Jan 21 12:40:40 :: Resetting The City Of Thalos (rooms 5200-5299).
+Jan 21 12:40:40 :: Resetting The Great Pyramid (rooms 5300-5399).

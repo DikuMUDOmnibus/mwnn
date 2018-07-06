@@ -1,0 +1,11 @@
+fight.c
+spec_proc.c
+struct.h
+act.other.c
+act.wizard.c
+db.c
+util.h
+spell.h
+magic.c
+spell_parser.c
+interpreter.c

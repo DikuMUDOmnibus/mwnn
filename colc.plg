@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: colc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSP82C0.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/colc.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Windows\Profiles\Brian\My Documents\colc\src\gladiator.c"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP82C0.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP82C1.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/colc.pdb" /debug /machine:I386 /out:"Debug/colc.exe" /pdbtype:sept 
+".\Debug\act.build.obj"
+".\Debug\act.comm.obj"
+".\Debug\act.informative.obj"
+".\Debug\act.item.obj"
+".\Debug\act.movement.obj"
+".\Debug\act.offensive.obj"
+".\Debug\act.other.obj"
+".\Debug\act.social.obj"
+".\Debug\act.wizard.obj"
+".\Debug\alias.obj"
+".\Debug\ban.obj"
+".\Debug\boards.obj"
+".\Debug\castle.obj"
+".\Debug\clan.obj"
+".\Debug\class.obj"
+".\Debug\comm.obj"
+".\Debug\config.obj"
+".\Debug\constants.obj"
+".\Debug\db.obj"
+".\Debug\economy.obj"
+".\Debug\fight.obj"
+".\Debug\genmob.obj"
+".\Debug\genobj.obj"
+".\Debug\genolc.obj"
+".\Debug\genshp.obj"
+".\Debug\genwld.obj"
+".\Debug\genzon.obj"
+".\Debug\graph.obj"
+".\Debug\handler.obj"
+".\Debug\house.obj"
+".\Debug\improved-edit.obj"
+".\Debug\interpreter.obj"
+".\Debug\kingdom.obj"
+".\Debug\limits.obj"
+".\Debug\magic.obj"
+".\Debug\mail.obj"
+".\Debug\medit.obj"
+".\Debug\mobact.obj"
+".\Debug\modify.obj"
+".\Debug\oasis.obj"
+".\Debug\objsave.obj"
+".\Debug\oedit.obj"
+".\Debug\olc.obj"
+".\Debug\race.obj"
+".\Debug\random.obj"
+".\Debug\redit.obj"
+".\Debug\sedit.obj"
+".\Debug\shop.obj"
+".\Debug\spec_assign.obj"
+".\Debug\spec_procs.obj"
+".\Debug\spell_parser.obj"
+".\Debug\spells.obj"
+".\Debug\tedit.obj"
+".\Debug\utils.obj"
+".\Debug\weather.obj"
+".\Debug\zedit.obj"
+".\Debug\gladiator.obj"
+]
+Creating command line "link.exe @c:\windows\TEMP\RSP82C1.TMP"
+<h3>Output Window</h3>
+Compiling...
+gladiator.c
+Linking...
+
+
+
+<h3>Results</h3>
+colc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

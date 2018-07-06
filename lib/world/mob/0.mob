@@ -1,0 +1,137 @@
+#1
+Puff dragon fractal~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+Is that some type of differntial curve involving some strange, and
+unknown calculus that she seems to be made out of?
+~
+253961 33800 1000 E
+26 1 -1 5d10+550 4d6+3
+10000 155000
+9 9 2
+BareHandAttack: 12
+E
+#10
+clone~
+the clone~
+A boring old clone is standing here.
+~
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+10 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+9 9 0
+E
+#11
+zombie undead humanoid~
+the zombie~
+A strange humanoid is here.  How odd, its flesh seems to be falling off!
+~
+This strange humanoid is moving rather slowly, and appears to be
+a corpse, a walking corpse!  It must be a zombie or something of
+the sort.
+~
+10 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+9 9 0
+BareHandAttack: 7
+E
+#19
+aerial servant shape~
+the aerial servant~
+An amorphous shape is floating in the air.
+~
+As you stare at this amorphous shape, it begins to appear to take
+the shape of a cloud-like humanoid.
+~
+10 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+9 9 0
+E
+#20
+elemental~
+the elemental~
+An elemental is standing patiently here.
+~
+This creature is the essence of the elements, and appears to be
+waiting patiently for something to occur.
+~
+10 0 0 E
+1 0 0 1d1+1 1d1+1
+0 0
+9 9 0
+E
+#25
+hawk~
+the wild hawk~
+The wild hawk flies around in the air.
+~
+A beautifully feathered hawk flies into the air.  It does dives and circles over head.  It
+lifts it's magnifiecnt head and calls to it's wild kin.
+~
+138 65536 0 E
+2 19 10 2d5+10 2d6+1
+0 0
+9 9 0
+BareHandAttack: 8
+E
+#26
+monkey~
+a small monkey~
+A small monkey sits here with a mischievous look in his eyes.
+~
+The monkey is the cuttest little critter.  It's big brown eyes look up to you
+begging you for something.  Then out of the blue he bars his teeth.  Man they
+look like they could hurt!!
+~
+138 0 0 E
+10 15 8 3d20+10 2d10+5
+0 0
+9 9 0
+BareHandAttack: 4
+E
+#27
+tiger beast~
+a majestic tiger~
+A beast romps around looking for it's next victim.
+~
+The tiger is an awesome sight.  He comes up about to a normal humans waist.   The muscles
+in his body surge with every step that he takes.  His coat of orange with black stripes
+almost resemble the HUGE teeeth inside his mouth.
+~
+26 263168 -20 E
+15 10 2 5d30+50 5d20+10
+0 0
+9 9 0
+BareHandAttack: 4
+E
+#28
+bear~
+a large bear~
+A large bear stands on his hind legs, mouth gapped open.
+~
+A bear stands here looking at you with malice in his small beady eyes.
+~
+65550 0 0 E
+25 5 -1 30d7+100 5d15+15
+0 0
+9 9 0
+BareHandAttack: 9
+E
+#99
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+The dark-robed skeletal figure radiates an unendurable coldness.
+~
+256026 33960 0 E
+30 0 -10 1d1+665 10d15+20
+0 500000
+9 9 0
+E
+$

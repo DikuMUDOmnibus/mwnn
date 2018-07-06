@@ -1,0 +1,103 @@
+(lib/text/news)
+
+NEW COMMANDS AND NEW MUD BEHAVIOR:
+---------------------------------
+11-16-99 NEW RACES!  Ghost, Ghoul, Drow, and Kender..  Werebeast is being modified
+    to allow for multiple differant kinds of beast..  If you wish to change your
+    race and have had your character for less then 6 hours then see an Imm.
+
+11-16-99 NEW CLASSES!  Spy, Alchemist, and Guard!
+
+11-16-99 Working on removing levels.  Only levels will be guild and clan levels.
+
+11-16-99 Romance Module is out.  Writing new one.  For now just RP it..
+
+11-16-99 Clan code changed (though not fully implemented).  Clans will be down
+    for a little while.  Sorry..
+
+11-16-99 Royal System Changed..  Old Royal (PK system) is dead.  Royalty is now
+    based on RPP (role-playing points) and your cities population.  See HELP ROYAL.
+
+11-16-99 Have not updated new in long time..  New channels in.  OOC instead of gossip.
+    Tell is only used by newbies and Imms.  RP and emote are working.
+    See HELP CHANNELS.
+
+** Royal system is here.  Type HELP ROYAL for more information!!
+
+** Bows, Crossbows, and Slings are now implemented.  Only certian class can use.  Check       your prac to find out if you can.
+
+** AUTOSPLIT, AUTOLOOT, AUTOASSIST ARE IN TYPE AUTO OR TOGGLE TO SEE!
+
+** CLANS ARE HERE! (Only really good for RP right now but later they will do some
+   KICK BUTT stuff :)  Start yours now!!)
+
+** Romance modules in type help romance (Doesn't work just yet the help anyway :)  )
+
+** Throw command implemented.  Can be used by ALL (not for long though probably..)
+
+** Type "tnl" to see how much exp till next level!
+
+** Retreat for Thief Class.  Fleeing with no penalty.
+
+** Scrolls of identify now work better.
+
+** Spell abbreviations work (i.e. 'prot f ev' for 'protection from evil').
+
+** Aliases are now in!  Type HELP ALIAS for more information.  Note that    
+   aliases are not yet saved when you quit, although they will be in the (very)
+   near future.
+
+** Your character no longer gains move points with age.  However, age
+   does still affect your HMV gains.  Also, move point modifier objects
+   now work correctly.
+
+** You can now use "all" and "all.x" very generally with the get, put,
+   drop, junk, donate, give, wear and remove commands.  Type HELP GET
+   for more info.
+
+** The "track" function will show you the first step on the shortest
+   path to anyone in the game.
+
+** If you drop your link for more than 1 hour, you will be force-rented
+   at 25% greater than normal rent prices.  If you don't have enough
+   money to rent with, your most valuable items will be junked until
+   the money you have can cover your items.
+
+** You can now remove your own messages from the board.  Also, if you
+   put someone else's name in parentheses in the message header, they
+   will be able to remove the message too.
+
+** The MIDGAARD MAIL SYSTEM is now complete.  The Post Office is north
+   of the entrance to the Grunting Boar inn.  Stamps cost 35 coins.
+
+** Fountains have now been implemented.  You can drink from fountains
+   or fill containers from fountains using the FILL command.
+
+** The SHOUT command, as always, only reaches people in your zone (you
+   can see who these people are by typing WHERE).  The HOLLER command
+   reaches everyone in the game.
+
+** When you are writing a message, you will now not be interrupted
+   by tells, shouts, emotes, socials, and even people talking in the
+   same room.
+
+** The WIMPY command has been upgraded so you can set at how many hit
+   points you flee.  Type HELP WIMPY for more info.
+
+*****************************************************************************
+    IF YOU LEAVE THE GAME FOR MORE THAN AN HOUR, either by renting or plain
+    quitting, your hit points, move points, and mana will be fully restored
+    when you come back!  This doesn't work if you're poisoned.
+*****************************************************************************
+
+** Use the ASSIST command to engage in mortal combat with someone in the
+   room who is getting pummeled.
+
+** Use the SPLIT command to split gold among the members of your group
+   (including yourself) who are in the room.  i.e. If you are in a group
+   with 4 other people who are in the room with you, type "SPLIT 100"
+   to give each of them 20 coins.
+
+** You can use the VISIBLE command to break a spell of invisibility before
+   it expires.
+

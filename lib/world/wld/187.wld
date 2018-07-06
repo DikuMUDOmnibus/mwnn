@@ -1,0 +1,102 @@
+#18701
+A Grand Hallway~
+The grand hallway is not so grand once you get inside it.  It is a deep contrast to the majestic room to the south.   This hall seems as if was constructed in somewhat of a hurry.  Cracks can be seen in the walls and ceiling.  Half finished mosaics and paintings adorn the walls.  Who would start a magnificient structure like such and leave it undone?
+The 'grand' hallway continues to the north of here.  To the south lies a majestic room.
+~
+187 d 0
+D0
+~
+~
+0 0 18702
+D5
+~
+~
+0 -1 3001
+S
+#18702
+An Fork in the Hallway~
+  You have stumbled into a fork in the hallway.  It seems to branch into two very distinct sub-halls.  One is painted a bright white, the other is pitch black.
+  To the south is a way out of this madness.
+~
+187 d 0
+D1
+~
+~
+0 0 18703
+D2
+~
+~
+0 0 18701
+S
+#18703
+Entrance in to the White Hall~
+You enter a BRIGHTLY light hall.  The walls here explode in a white so bright
+that it hurts ones eyes to look upon it.  The brightness seems to be originating
+somewhere down the hall.  Barely visible on the shining walls is a sign.
+~
+187 d 0
+D0
+~
+~
+0 0 18704
+D3
+~
+~
+0 0 18702
+E
+sign~
+Welcome to the Way of the Light
+
+May peace be with you on your journey here.
+A priest awaits you to the north-east.
+   He will care for your all your needs.
+A Knight lies to the north-west.
+   He will train you in the ways of this path.
+
+(OOC: If you have questions about this path ask a Follower!)
+~
+S
+#18704
+The Junction~
+You enter a part of a hallway where there are actually doors.  The white  aura
+around them really makes their brown, wood color stand out.  One door lies to
+the east, and a second door awaits at the west.
+The brightness awaits ahead of you.
+~
+187 d 0
+D1
+~
+door~
+1 0 18705
+D2
+~
+~
+0 0 18703
+D3
+~
+~
+0 0 18706
+S
+#18705
+The Room of Healing~
+This room is not quite as brightly light as some of the others.  The light is soft corners.  An incense burner run low hangs there.
+  The air is smells slightly musty.  The smell grows out of one of the back corners.
+~
+187 defg 0
+D3
+~
+door~
+1 0 18704
+S
+#18706
+The Training Room~
+The room is barely light, but the red color of blood stands out on the floor
+and walls.  Obviously not the nicest of trainers.
+~
+187 d 0
+D1
+~
+~
+0 0 18704
+S
+$

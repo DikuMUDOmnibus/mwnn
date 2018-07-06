@@ -1,0 +1,28 @@
+#18700
+guard big man male~
+a male guard~
+A BIG male guard stands here looking extremely buff.
+~
+The guard is really huge.  His muscles bulge from beneath his armor.  He's face has
+no expression, and his eyes stare straight through you.
+~
+260123 65538 0 E
+30 10 -10 1d1+30000 10d20+20
+69 666
+9 9 1
+BareHandAttack: 9
+E
+#18701
+priestess woman white mage~
+the priestess~
+A woman in white robes sits on the floor.
+~
+The woman is very plain.  Her hair is long and touches the floor.  Her eyes are closed in deep concentration.
+Every couple of minutes she utters a spell.
+~
+59419 0 1000 E
+30 -10 -10 1d1+30000 10d30+30
+3 3
+6 6 2
+E
+$

@@ -1,0 +1,129 @@
+**************************************************************************
+**									**
+**			CLANS for CIRCLEMUD 3.0				**
+**									**
+**************************************************************************
+**									**
+**	Written by Daniel Muller aka FIDO aka Regulator			**
+**									**
+**	Tested on circle mud 3.0 patch level 11				**
+**									**
+** Bugs, comments, suggestions to: dmuller@pickles.hobart.tased.edu.au  ** 
+**									**
+**************************************************************************
+
+** CONTENTS
+
+1) Packaging
+2) Installation instructions         <-- IMPORTANT - DO READ THIS!
+3) Notes and ectera
+4) Conditions of use
+5) A word about the command 'clan debug'
+
+
+
+
+
+** 1) Packaging
+  
+  In the Clan.patch.tar.gz archive, you should find:
+    Clan.patch.README
+    Clan.patch
+    index
+    index.mini
+    normal.clan
+
+  If any of these files are missing, please contact me at:
+    dmuller@pickles.hobart.tased.edu.au
+
+
+
+
+** 2) Installation instructions
+
+  I've tried to make the installation of this clan system as easy as 
+possible.  You simply run the patch on your source files, using a 
+command line something like this: patch < Clan.patch
+
+  Next, you need to go into your ./lib/text directory, and create a 
+new directory called 'clan'.  So now, from your mud home directory you 
+should have this directory: <mud home>/lib/text/clan
+
+  In this new directory place the three text files included with the 
+patch.  Files: index, index.mini, normal.clan
+
+  And that's it.  Boot up your mud, and you should have no troubles 
+editing your clans, and working with them.
+
+*************** NOTE ********************
+I could never stress enough the importance of checking the 'reject' 
+file produced by the patch command.  If anything is rejected, make the 
+changes manually using the reject report as a guide.
+
+
+
+
+
+** 3) Notes and etcetera
+
+  (Okay, so I can't spell.  =P)
+
+  Q: What is this clan stuff?
+  A: This patch is designed to give you a fully functional clan 
+system.  Complete with full screen clan editing.
+
+  Basically, this system gives players the ability to join or even 
+create their own groups (called clans).  The benefits of which, can be 
+decided by you the implementor.  The basic benefits of belonging to a 
+clan (ie. the abilities I have included in this patch) are:
+
+    clan say		- The clans own gossip channel
+    clan gold		- The clan has its own master account
+    clan ranks		- The ability to boss your fellow clan members about
+
+  I've attempted to keep all the clan controls as subcommands of 
+'clan'.  For a full list of functions, type "clan help" from inside 
+the mud.  NOTE: The help menu changes depending on what commands are 
+available to you at the time.
+
+  Q: So, I'm starting to use this system.  How do I get into the clan?
+  A: As the implementor, you can force the enlistment of members into 
+clans.  Ie.  You have a player or yourself apply to a clan, with the 
+command: 'clan apply <number>'.  Next, you use your implementor 
+character to force the enlistment of this character into the clan, 
+with the command: 'clan enlist <player name>'.  NOW, if the person 
+being enlisted is registered as the owner of the clan, they 
+automatically get promoted to the rank of 'CLAN RULER' in their clan.  
+Making all clan commands available to them.  NOTE: It is wise to 
+suggest to any fledgeling clan rulers, that they study the online help 
+for the clan commands thoroughly.
+
+  Q: How do I create new clans, or edit existing ones?
+  A: Use the full screen editor.  By typing: 'clan edit <number>'.
+
+**  Author's note: **
+  I've attempted to keep changes to the stock circlemud code to a 
+minimum, preferring to (whenever possible) put all new procedures into the 
+file 'clan.c' or 'clan.h'.  Unfortunately, however, I wasn't able to keep 
+ALL changes to that file only.  So, please carefully check the 
+'reject' file produced by the patch command.
+
+
+
+
+
+** 4) Conditions of use
+
+  The only conditions I put on the use of my code, is that you credit 
+me somewhere visible to the players (I don't care if you make it as 
+obscure a credit as possible, or a full page rolling oration), AND 
+that you email me and let me know how it goes.  =)
+
+
+
+
+
+** 5) A word about the command 'clan debug'
+
+  Just for your information.  The 'clan debug' command dumps it's 
+output to a file called 'DEBUG' in the ./lib/text/clan directory.

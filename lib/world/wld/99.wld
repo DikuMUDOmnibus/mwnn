@@ -1,0 +1,260 @@
+#9901
+The Entrance~
+You stand before the doors of the newbie cave. There is a sign on the door.
+~
+99 0 1
+D0
+~
+~
+1 -1 9902
+E
+sign~
+The sign says, "This is the entrance to the newbie area, the land of plenty, through these doors have many entered and all have returned."
+~
+S
+#9902
+Tunnel~
+You are in a tunnel that leads to the newbie area.
+~
+99 0 1
+D0
+~
+~
+0 -1 9904
+D2
+~
+~
+0 -1 9901
+S
+#9904
+Cave~
+You are on the walk leading to the city. The floor gives off an unearthly Ggreen glow.
+~
+99 0 2
+D2
+~
+~
+0 -1 9902
+D3
+~
+~
+0 -1 9906
+S
+#9906
+Cave~
+You are a short walk from the city gates.
+~
+99 0 2
+D1
+~
+~
+0 -1 9904
+D3
+~
+~
+0 -1 9907
+S
+#9907
+Cave~
+You are now standing before the HUGE City gates.
+You can here the hustle and bustle of city life from here.
+~
+99 0 2
+D0
+~
+~
+0 -1 9908
+D1
+~
+~
+0 -1 9906
+S
+#9908
+In the City~
+There is a sign saying, "If you are NEW head west please, if not go north."
+~
+99 0 1
+D2
+~
+~
+0 -1 7
+D3
+~
+~
+0 -1 9909
+S
+#9909
+Entrance to 'School Street'~
+You are about to enter the Street of Schools.
+~
+99 0 1
+D1
+~
+~
+0 -1 9908
+D3
+~
+~
+0 -1 9914
+S
+#9910
+In the City~
+There is a sign saying, "If you are a newbie head west please, if not go north."
+~
+99 0 2
+D1
+~
+~
+0 -1 9909
+D2
+~
+~
+0 -1 9907
+E
+sign~
+The sign says, "This is the entrance to the newbie area, the land of plenty, through these doors have many entered and all have returned."
+~
+S
+#9913
+The Elven School of Newbies.~
+You stand in a building built entirely from wood; there is a teacher/prac/trainer in the center of the room teaching newbies. 
+On a table by the entrance is two books.
+~
+99 de 1
+D2
+~
+~
+0 -1 9914
+E
+book books~
+ON the table rest two books on titled 'Elven Help' and the other 'General Newbie Help'
+~
+S
+#9914
+On the Street of Schools~
+You are almost to the end of The Street of Schools.
+To the North is the Elven School for Newbies.
+To the South is the Human School for Newbies.
+~
+99 0 1
+D0
+~
+~
+0 -1 9913
+D1
+~
+~
+0 -1 9909
+D2
+~
+~
+0 -1 9915
+D3
+~
+~
+0 -1 9916
+S
+#9915
+Newbie school for Humans.~
+You walk into a Building Constructed entirely from brick.
+In the center of the room stands a wise and powerful sage teaching the common rabble.
+On the far wall are to signs, maybe you should look at them.
+~
+99 de 1
+D0
+~
+~
+0 -1 9914
+S
+#9916
+On the Street of Schools~
+You are on The Street of Schools.
+To the North is the Giants School for Newbies.
+To the South is the Ariel School for Newbies.
+~
+99 0 1
+D0
+~
+~
+0 -1 9917
+D1
+~
+~
+0 -1 9914
+D2
+~
+~
+0 -1 9918
+D3
+~
+~
+0 -1 9919
+S
+#9917
+Giants school for newbies.~
+You are in a strange room about 30 feet high with glowing walls, which in the center has a teacher of the Giant race teaching those less intelligent.
+On the far wall is a magic mirror with a strip of paper above it.
+~
+99 de 1
+D2
+~
+~
+0 -1 9916
+E
+paper strip~
+Der is two question ya can ask da mirror.
+1.look Giant Newbie Help
+2.look General Newbie Help.
+~
+S
+#9918
+School of Newbies for Ariels~
+You stand in a building that looked drab on the outside but look like heaven on the inside with walls made of crystal and a ceiling of cloud. 
+In the center of the room is an Ariel teacher.
+Strangely two scrolls float in front of you.
+~
+99 de 1
+D0
+~
+~
+0 -1 9916
+E
+scroll scrolls~
+Of the two scrolls one is titled, 'Ariel Newbie Help' and the other is 'General Newbie Help.'
+~
+S
+#9919
+On the Street of Schools~
+You are on The Street of Schools.
+To the North is the Trolls School for Newbies.
+To the South is the Dracos School for Newbies.
+~
+99 0 1
+D0
+~
+~
+0 -1 9920
+D1
+~
+~
+0 -1 9916
+S
+#9920
+Trollish School for Newbies~
+You enter into a poorly constructed building made of mud and waddle. Throught the smoke coming from the fireplace and the teacher standing in the middle of the room chainsmoking, you guess the dimensions as 15 ft cubed.	
+By the fire place on the far side of the room is a piece of paper stretching acroos the back wall.
+~
+99 0 1
+D2
+~
+~
+0 -1 9919
+S
+#9921
+Draco School for Newbies~
+You have just enter a singulary UGLY build made from black basalt with marble floors. The floor is covered in blood stains and the occasianl bone. the wall east wall is covered by a single Tapastry with wrighting on it.  
+In the center of the room is an Acient Draco instruction the hatchlings.
+~
+99 de 1
+S
+$
